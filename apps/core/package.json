@@ -32,6 +32,8 @@
   "prettier": {
     "printWidth": 100
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/runtime": "^7.17.9"
+  },
   "devDependencies": {}
 }

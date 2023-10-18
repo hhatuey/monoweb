@@ -9,7 +9,6 @@
     "packages/*"
   ],
   "dependencies": {
-    "@babel/runtime": "^7.12.5",
     "@xarc/app": "^11.0.5",
     "@xarc/fastify-server": "^4.0.7",
     "@xarc/react": "^1.0.3",
