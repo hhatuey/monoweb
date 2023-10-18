@@ -3,6 +3,11 @@ import { loadDevTasks, xrun } from "@xarc/app-dev";
 xrun.updateEnv(
   {
     /**
+     * This reordered the dns results to put IPV4 addresses before IPV6.
+     * Otherwise an ECONNREFUSED error will arise.
+     */
+    NODE_OPTIONS: "--dns-result-order=ipv4first",
+    /**
      * Configure local development with http://localhost:3000
      */
     HOST: "localhost",
