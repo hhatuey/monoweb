@@ -1,4 +1,7 @@
 import { declareSubApp, xarcV2 } from "@xarc/react";
+import { initMetrics, getMetrics } from "@monoweb/telemetry";
+
+initMetrics();
 
 export const home = declareSubApp({
   name: "home",

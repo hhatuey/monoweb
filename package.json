@@ -14,6 +14,7 @@
     "@xarc/react": "^1.0.3",
     "@xarc/react-query": "^1.0.3",
     "@xarc/react-redux": "^1.1.2",
+    "firebase": "^10.5.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {

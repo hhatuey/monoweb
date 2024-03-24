@@ -33,7 +33,8 @@
     "printWidth": 100
   },
   "dependencies": {
-    "@babel/runtime": "^7.17.9"
+    "@babel/runtime": "^7.17.9",
+    "@monoweb/telemetry": "0.0.1"
   },
   "devDependencies": {}
 }
